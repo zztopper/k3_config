@@ -1,0 +1,7 @@
+printer-*.cfg
+telegram.conf
+.fluidd*
+.variables.stb
+*.swp
+imgs/*
+input_shaper/*
