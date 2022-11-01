@@ -1,5 +1,4 @@
 printer-*.cfg
-telegram.conf
 .fluidd*
 .variables.stb
 *.swp
