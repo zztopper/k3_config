@@ -2,5 +2,7 @@ printer-*.cfg
 .fluidd*
 .variables.stb
 *.swp
+.moonraker.conf.bkp
+*.bkp
 imgs/*
 input_shaper/*
