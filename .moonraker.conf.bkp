@@ -51,6 +51,15 @@ type = web
 repo = mainsail-crew/mainsail
 path = ~/mainsail
 
+[update_manager client moonraker-telegram-bot]
+type = git_repo
+primary_branch = development
+path = ~/moonraker-telegram-bot
+origin = https://github.com/nlef/moonraker-telegram-bot.git
+env = ~/moonraker-telegram-bot-env/bin/python
+requirements = scripts/requirements.txt
+install_script = scripts/install.sh
+
 [octoprint_compat]
 
 [update_manager led_effect]
