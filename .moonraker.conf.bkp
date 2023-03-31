@@ -32,6 +32,12 @@ cors_domains =
 	https://app.fluidd.xyz
 	https://k3.zztopper.ru
 
+[wled case]
+type = http
+address = 10.20.0.64
+chain_count = 241
+initial_preset = 1
+
 [zeroconf]
 
 [history]
