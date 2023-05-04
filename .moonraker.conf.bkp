@@ -70,12 +70,6 @@ install_script = scripts/install.sh
 
 [octoprint_compat]
 
-[update_manager led_effect]
-type = git_repo
-path = ~/klipper-led_effect
-origin = https://github.com/julianschill/klipper-led_effect.git
-is_system_service = False
-
 [update_manager camera-streamer]
 type = git_repo
 path = ~/camera-streamer
