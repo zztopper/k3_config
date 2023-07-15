@@ -59,15 +59,6 @@ type = web
 repo = mainsail-crew/mainsail
 path = ~/mainsail
 
-[update_manager klipper_tmc_autotune]
-type = git_repo
-channel = dev
-path = ~/klipper_tmc_autotune
-origin = https://github.com/andrewmcgr/klipper_tmc_autotune.git
-managed_services = klipper
-primary_branch = main
-install_script = install.sh
-
 [update_manager client moonraker-telegram-bot]
 type = git_repo
 primary_branch = development
@@ -79,9 +70,10 @@ install_script = scripts/install.sh
 
 [octoprint_compat]
 
-[update_manager camera-streamer]
+[update_manager crowsnest]
 type = git_repo
-path = ~/camera-streamer
-origin = https://github.com/ayufan/camera-streamer.git
-managed_services = camera-streamer
+path = ~/crowsnest
+origin = https://github.com/mainsail-crew/crowsnest.git
+managed_services = crowsnest
+install_script = tools/pkglist.sh
 
