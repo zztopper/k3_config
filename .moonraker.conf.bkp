@@ -44,6 +44,10 @@ initial_preset = 1
 
 [job_queue]
 
+[spoolman]
+server = https://spoolman.zztopper.ru
+sync_rate = 5
+
 [power k3_power]
 type = homeassistant
 address = 10.20.0.10
