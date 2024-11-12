@@ -3,6 +3,10 @@ printer-*.cfg
 .variables.stb
 *.swp
 .moonraker.conf.bkp
+.moonraker.conf.*
+*.backup
+*.disabled
 *.bkp
 imgs/*
 input_shaper/*
+adxl_results/*
