@@ -49,7 +49,7 @@ type = homeassistant
 address = 10.20.0.10
 port = 8123
 device = switch.k3_sonoff_power
-token = eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJmYmY0MzE2NjVkMjU0YjIxYTM1ZjdkMWY5ZWU0MWVjMCIsImlhdCI6MTY2MzkzOTY5NiwiZXhwIjoxOTc5Mjk5Njk2fQ.4cbbo8PiBHgPu8iyjUBuv4Qhcc3zWynRuUoLXXxN8dg
+token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiI5MmY5NjAxNGY2OTU0OTcxYWVlMDk1OWZhMjQ5ZGZhYyIsImlhdCI6MTczNTQ3NTMxNiwiZXhwIjoyMDUwODM1MzE2fQ.sBVCzXOsz85TCYNcbxvXkT1mYNIB2aQkgv2kRvM2WfY
 locked_while_printing = True
 
 [update_manager]
