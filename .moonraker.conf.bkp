@@ -34,7 +34,7 @@ cors_domains =
 
 [wled case]
 type = http
-address = 10.20.1.101
+address = 10.20.1.64
 chain_count = 241
 initial_preset = 1
 
